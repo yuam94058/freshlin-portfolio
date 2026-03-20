@@ -109,9 +109,10 @@ export function About() {
     </p>
   </div>
 </div>
+</div>
 
-            {/* Right Sidebar - Right on desktop, After autobiography on mobile */}
-            <div className="space-y-6 order-2 md:order-2">
+{/* Right Sidebar - Right on desktop, After autobiography on mobile */}
+<div className="space-y-6 order-2 md:order-2">
               {/* Lifestyle Photo */}
               <div className="rounded-2xl overflow-hidden">
                 <img
