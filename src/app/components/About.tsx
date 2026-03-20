@@ -76,14 +76,14 @@ export function About() {
             </div>
           </div>
 
-          {/* Right Sidebar - Right on desktop, After autobiography on mobile */}
-          <div className="space-y-6 order-2 md:order-2">
-            {/* Lifestyle Photo */}
-            <div className="rounded-2xl overflow-hidden">
-              <img
-                src="/public/fresh-lifestyle-photo.jpg"
-                alt="Fresh Lin Lifestyle"
-                className="w-full h-auto object-cover"
+            {/* Right Sidebar - Right on desktop, After autobiography on mobile */}
+            <div className="space-y-6 order-2 md:order-2">
+              {/* Lifestyle Photo */}
+              <div className="rounded-2xl overflow-hidden">
+                <img
+                  src={`${base}fresh-lifestyle-photo.jpg`}
+                  alt="Fresh Lin Lifestyle"
+                  className="w-full h-auto object-cover"
               />
             </div>
 
