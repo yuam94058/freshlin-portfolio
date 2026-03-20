@@ -60,7 +60,7 @@ export function About() {
               <h2 className="text-2xl font-semibold text-foreground">從內容出發，用數據賦能</h2>
               <div className="space-y-4 text-base text-muted-foreground leading-relaxed">
                 <p>
-                  我在 <a href="https://www.sanmin.com.tw/" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:no-underline">三民書局</a> 學會如何為一本好書「定錨」，並透過內容行銷擴散作者與書籍知名度，進而帶動銷量；在 <a href="https://www.vpon.com/zh-hant/" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:no-underline">Vpon 威朋</a> 看見大數據背後的廣告運作邏輯，也開始建立對數據與投放之間關係的理解；並在 <a href="https://vocus.cc/become_creator" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:no-underline">方格子 vocus</a> 迎來職涯的關鍵跳躍——學會以數據導向思維推進數位行銷策略，並帶領團隊實現單月 GMV 成長與千萬級流量。我逐漸發現：最好的行銷不是盲目投放，而是像投資精準標的一樣，透過數據持續優化，讓每一分預算都發揮最大價值。
+                  我在 <a href="https://www.sanmin.com.tw/" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:no-underline">三民書局</a> 學會如何為一本好書「定錨」，並透過內容行銷擴散作者與書籍知名度，進而帶動銷量；在 <a href="https://www.vpon.com/zh-hant/" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:no-underline">Vpon 威朋</a> 看見大數據背後的廣告運作邏輯，也開始建立對數據與投放之間關係的理解；並在 <a href="https://vocus.cc/become_creator" target="_blank" rel="noopener noreferrer" className="text-foreground underline hover:no-underline">方格子 vocus</a> 迎來職涯的關鍵跳躍，學會以數據導向思維推進數位行銷策略，並帶領團隊實現單月 GMV 成長與千萬級流量。我逐漸發現：最好的行銷不是盲目投放，而是像投資精準標的一樣，透過數據持續優化，讓每一分預算都發揮最大價值。
                 </p>
               </div>
             </div>
