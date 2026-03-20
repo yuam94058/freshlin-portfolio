@@ -15,8 +15,8 @@ export function Resume() {
       {/* Header */}
       <div className="py-12 px-6 bg-white border-b border-gray-200">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-4xl text-foreground mb-4 font-semibold">完整履歷</h1>
-          <p className="text-sm text-muted-foreground italic">RESUME / 我的履歷 /</p>
+          <h1 className="text-4xl text-foreground mb-4 font-semibold">履歷</h1>
+          <p className="text-sm text-muted-foreground italic">RESUME</p>
         </div>
       </div>
 
