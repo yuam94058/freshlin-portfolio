@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 export function About() {
+  const base = import.meta.env.BASE_URL;
   const [mbtiOpen, setMbtiOpen] = useState(false);
   const [pointsOpen, setPointsOpen] = useState(false);
 
