@@ -143,18 +143,19 @@ export function About() {
                 </svg>
               </button>
 
-              {mbtiOpen && (
-                <div className="p-4 bg-white border border-gray-200 rounded-lg space-y-3">
-                  <div className="inline-block px-3 py-1 bg-foreground text-white rounded-full text-sm font-semibold">
-                    ESFJ
-                  </div>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li>• 具體、實事求是，信賴詳盡而實際的資料。</li>
-                    <li>• 利他主義者，天生熱情而禮貌。</li>
-                    <li>• 注重團隊協作，與同事、客戶和上下游供應鏈保持友好、互助、相互鼓勵的合作共贏關係。</li>
-                  </ul>
-                </div>
-              )}
+{mbtiOpen && (
+  <div className="p-4 bg-white border border-gray-200 rounded-lg space-y-3">
+    <div className="inline-block px-3 py-1 bg-foreground text-white rounded-full text-sm font-semibold">
+      ESFJ
+    </div>
+
+    <ul className="list-disc pl-5 space-y-2 text-sm text-muted-foreground">
+      <li>具體、實事求是，信賴詳盡而實際的資料。</li>
+      <li>利他主義者，天生熱情而禮貌。</li>
+      <li>注重團隊協作，與同事、客戶和上下游供應鏈保持友好、互助、相互鼓勵的合作共贏關係。</li>
+    </ul>
+  </div>
+)}
 
               {/* Points Collapsible */}
               <button
