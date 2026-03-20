@@ -37,13 +37,35 @@ export function WorkExperience({
   showcases,
   additionalLinks,
 }: WorkExperienceProps) {
+  const base = import.meta.env.BASE_URL;
+
+  const resolveAssetPath = (path: string) => {
+    if (!path) return '';
+
+    // 外部連結或 base64 不處理
+    if (
+      path.startsWith('http://') ||
+      path.startsWith('https://') ||
+      path.startsWith('data:')
+    ) {
+      return path;
+    }
+
+    // 把 /public/xxx.jpg、public/xxx.jpg、/xxx.jpg 都統一轉成 GitHub Pages 可用格式
+    const cleanedPath = path
+      .replace(/^\/?public\//, '')
+      .replace(/^\//, '');
+
+    return `${base}${cleanedPath}`;
+  };
+
   return (
     <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-sm">
       {/* Company Header */}
       <div className="flex flex-col md:flex-row md:items-start gap-6 mb-8 pb-8 border-b border-gray-200">
         <div className="w-16 h-16 rounded-2xl overflow-hidden bg-white border border-gray-100 p-2 flex items-center justify-center">
           <img
-            src={logo}
+            src={resolveAssetPath(logo)}
             alt={`${company} logo`}
             className="w-full h-full object-contain"
           />
@@ -95,7 +117,7 @@ export function WorkExperience({
             >
               <div className="aspect-video bg-gray-100 overflow-hidden">
                 <img
-                  src={showcase.image}
+                  src={resolveAssetPath(showcase.image)}
                   alt={showcase.title}
                   className="w-full h-full object-cover"
                 />
