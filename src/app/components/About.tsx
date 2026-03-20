@@ -11,7 +11,7 @@ export function About() {
       <div className="py-12 px-6 bg-white border-b border-gray-200">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-4xl text-foreground mb-4 font-semibold">關於我</h1>
-          <p className="text-sm text-muted-foreground italic">ABOUT / 關於我 /</p>
+          <p className="text-sm text-muted-foreground italic">ABOUT</p>
         </div>
       </div>
 
