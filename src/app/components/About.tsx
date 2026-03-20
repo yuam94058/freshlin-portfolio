@@ -181,7 +181,7 @@ export function About() {
         {/* Contact CTA - Below all content */}
         <div className="pt-8 border-t border-gray-200 mt-12">
           <p className="text-sm text-muted-foreground leading-relaxed">
-            如果您正在尋找數位行銷的合作夥伴，或想進一步了解我的專案經歷，歡迎透過 <a href="mailto:yuam94058@gmail.com" className="text-foreground underline hover:no-underline font-medium">yuam94058@gmail.com</a> 與我聯繫——也可以前往 Resume 頁面深入認識我的工作經驗。
+            如果您正在尋找數位行銷的合作夥伴，或想進一步了解我的專案經歷，歡迎透過 <a href="mailto:yuam94058@gmail.com" className="text-foreground underline hover:no-underline font-medium">yuam94058@gmail.com</a> 與我聯繫——也可以前往 Resume Tab 深入認識我的工作經驗。
           </p>
         </div>
       </div>
