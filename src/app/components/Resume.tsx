@@ -113,7 +113,7 @@ export function Resume() {
         <section className="text-center pb-12 border-b border-gray-200">
           <div className="w-40 h-40 rounded-full overflow-hidden mx-auto mb-6 border border-gray-200">
             <img
-              src="/public/fresh-profile.jpeg"
+              src={`${base}fresh-profile.jpeg`}
               alt="Fresh Lin Profile"
               className="w-full h-full object-cover"
             />
