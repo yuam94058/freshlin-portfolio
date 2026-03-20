@@ -1,5 +1,3 @@
-import { MapPin } from 'lucide-react';
-
 interface Responsibility {
   title: string;
   items: string[];
@@ -30,7 +28,6 @@ interface WorkExperienceProps {
 }
 
 export function WorkExperience({
-  const base = import.meta.env.BASE_URL;
   company,
   logo,
   position,
@@ -38,7 +35,7 @@ export function WorkExperience({
   location,
   responsibilities,
   showcases,
-  additionalLinks
+  additionalLinks,
 }: WorkExperienceProps) {
   return (
     <div className="bg-white border border-gray-200 rounded-3xl p-8 shadow-sm">
@@ -67,12 +64,17 @@ export function WorkExperience({
         {responsibilities.map((resp, index) => (
           <div key={index} className="space-y-3">
             <div className="flex items-start gap-2">
-              <span className="text-sm font-medium text-gray-900 flex-shrink-0">{index + 1}.</span>
+              <span className="text-sm font-medium text-gray-900 flex-shrink-0">
+                {index + 1}.
+              </span>
               <h4 className="text-sm font-medium text-gray-900">{resp.title}</h4>
             </div>
             <ul className="space-y-2 ml-4">
               {resp.items.map((item, itemIndex) => (
-                <li key={itemIndex} className="flex gap-3 text-sm text-gray-700 leading-relaxed">
+                <li
+                  key={itemIndex}
+                  className="flex gap-3 text-sm text-gray-700 leading-relaxed"
+                >
                   <span className="text-gray-400 flex-shrink-0">○</span>
                   <span className="flex-1">{item}</span>
                 </li>
