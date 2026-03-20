@@ -2,6 +2,7 @@ import { Download, TrendingUp, Database, Award, Users, Globe, GraduationCap, Wre
 import { WorkExperience } from './WorkExperience';
 
 export function Resume() {
+  const base = import.meta.env.BASE_URL;
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
