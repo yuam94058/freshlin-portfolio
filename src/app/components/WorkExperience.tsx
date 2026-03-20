@@ -30,6 +30,7 @@ interface WorkExperienceProps {
 }
 
 export function WorkExperience({
+  const base = import.meta.env.BASE_URL;
   company,
   logo,
   position,
