@@ -220,12 +220,12 @@ export function Resume() {
                 showcases={[
                   {
                     title: '新車型上市｜數位購車頁面規劃',
-                    highlight: '規劃下訂流程＋追蹤報表，支援迭代優化',
+                    highlight: '規劃下訂流程與追蹤報表，支援迭代優化',
                     image: '/public/showcase-luxgen-order-flow.jpg'
                   },
                   {
                     title: '線上試駕流程優化｜去會員化 × 欄位精簡',
-                    highlight: '平均報名 14→2.5 小時，會員轉換達 5.0%',
+                    highlight: '平均報名 14 → 2.5 小時，會員轉換達 5.0%',
                     image: '/public/showcase-luxgen-testdrive.jpg'
                   },
                   {
@@ -264,7 +264,7 @@ export function Resume() {
                     title: '跨部門協作、異業合作與團隊領導 (Leadership & Collaboration)',
                     items: [
                       '團隊領導與 OKR 推進：帶領 2–3 人行銷團隊，制定季度 OKR，並負責行銷預算控管與成效追蹤，確保策略落地與目標達成。',
-                      'B2B 異業合作：跨產業策合作專案，與「臺灣吧」共同推出《BEERU NFT》，打造最有臺味的 NFT，預售 30 分鐘內售出目標一半，成功引爆話題與轉換。'
+                      'B2B 異業合作：跨產業策略合作專案，與「臺灣吧」共同推出《BEERU NFT》，打造最有臺味的 NFT，預售 30 分鐘內售出目標一半，成功引爆話題與轉換。'
                     ]
                   }
                 ]}
