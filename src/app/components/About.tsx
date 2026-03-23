@@ -39,21 +39,27 @@ export function About() {
               </div>
             </div>
 
-            {/* Section 1 */}
-            <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-foreground">Fresh —— 不只是名字，更是自我定位</h2>
-              <div className="space-y-4 text-base text-muted-foreground leading-relaxed">
-                <p>
-                  很多人第一次聽到我叫 Fresh，第一個反應通常覺得很奇怪，但其實這個名字源自我的中文名字「欣萱」。高中時，某位摯友在一次玩笑中說：「欣萱念很快就變成新鮮耶！可以叫妳 Fresh 嗎？」那一刻成了我成長過程中很重要的轉捩點，也讓我開始思考自己想成為什麼樣的人。
-                </p>
-                <p>
-                  Fresh 在劍橋詞典中的意思是 <strong>" new or different "</strong>，也是至今我仍覺得最貼切的自我定位。
-                </p>
-                <p>
-                  高中念商業經營科，大學就讀企業管理系，前前後後學了將近 7 年會計，本來可以順理成章走進穩定的財會領域。但大學畢業後，我選擇去美國與澳洲 GAP YEAR，那段時間讓我意識到：人生或許可以擁抱更多可能。也因此回台後，我踏上了從藝文標案、傳統出版，到互聯網新創、再到電動車產業的「跨界之旅」。
-                </p>
-              </div>
-            </div>
+{/* Section 1 */}
+<div className="space-y-4">
+  <h2 className="text-2xl font-semibold text-foreground">Fresh —— 不只是名字，更是自我定位</h2>
+  <div className="space-y-4 text-base text-muted-foreground leading-relaxed">
+    <p>
+      很多人聽到我叫 Fresh，第一個反應通常覺得很奇怪，但其實這源自我的中文名字「欣萱」。高中時，某位摯友在一次玩笑中說：「欣萱念很快就變成新鮮耶！可以叫妳 Fresh 嗎？」那一刻成了我成長過程中很重要的轉捩點，也讓我開始思考自己想成為什麼樣的人。
+    </p>
+
+    <p>
+      Fresh 在劍橋詞典中的意思是 <strong>" new or different "</strong>，也是至今我仍覺得最貼切的自我定位。
+    </p>
+
+    <p>
+      高中念商業經營科，大學就讀企業管理系，前前後後學了將近 7 年會計，本來可以順理成章走進穩定的財會領域。但大學畢業後，我選擇去美國與澳洲 GAP YEAR，那段時間讓我意識到：人生或許可以擁抱更多可能。
+    </p>
+
+    <p>
+      帶著這樣的心態回台，我踏上了從藝文標案、傳統出版，到互聯網新創、再到電動車產業的「跨界之旅」。
+    </p>
+  </div>
+</div>
 
 {/* Section 2 */}
 <div className="space-y-4">
